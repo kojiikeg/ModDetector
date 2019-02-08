@@ -1,0 +1,12 @@
+main: ${project.groupId}.simpleModDetector.${project.artifactId}
+name: ${project.artifactId}
+version: ${project.version}
+commands:
+ modlist:
+   usage: /<command> [MCID]
+   permission: simpleModDetector.use
+   permission-message: "§4You do not have permission"
+permissions:
+ simpleModDetector.use:
+   default: op
+   description: can use commands
